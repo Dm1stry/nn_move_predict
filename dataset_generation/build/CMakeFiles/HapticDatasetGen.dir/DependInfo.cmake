@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alik/Desktop/dataset_generation/MyTest.cpp" "/home/alik/Desktop/dataset_generation/build/CMakeFiles/HapticDatasetGen.dir/MyTest.cpp.o"
+  "/home/alik/Desktop/nn_move_predict/dataset_generation/MyTest.cpp" "/home/alik/Desktop/nn_move_predict/dataset_generation/build/CMakeFiles/HapticDatasetGen.dir/MyTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

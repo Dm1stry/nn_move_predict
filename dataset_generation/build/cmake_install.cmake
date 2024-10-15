@@ -1,4 +1,4 @@
-# Install script for directory: /home/alik/Desktop/dataset_generation
+# Install script for directory: /home/alik/Desktop/nn_move_predict/dataset_generation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alik/Desktop/dataset_generation/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alik/Desktop/nn_move_predict/dataset_generation/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

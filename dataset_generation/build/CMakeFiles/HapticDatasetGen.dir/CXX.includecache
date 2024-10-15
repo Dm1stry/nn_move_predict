@@ -62,7 +62,7 @@ hduVector.inl
 
 ../include/HDU/hduVector.inl
 
-/home/alik/Desktop/dataset_generation/MyTest.cpp
+/home/alik/Desktop/nn_move_predict/dataset_generation/MyTest.cpp
 iostream
 -
 cstdio

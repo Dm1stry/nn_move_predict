@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++2a
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alik/Desktop/dataset_generation/include 
+CXX_INCLUDES = -I/home/alik/Desktop/nn_move_predict/dataset_generation/include 
 
