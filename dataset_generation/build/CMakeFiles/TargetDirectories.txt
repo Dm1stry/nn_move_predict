@@ -1,3 +1,0 @@
-/home/alik/Desktop/nn_move_predict/dataset_generation/build/CMakeFiles/rebuild_cache.dir
-/home/alik/Desktop/nn_move_predict/dataset_generation/build/CMakeFiles/edit_cache.dir
-/home/alik/Desktop/nn_move_predict/dataset_generation/build/CMakeFiles/HapticDatasetGen.dir
