@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/alik/Desktop/nn_move_predict/dataset_generation/build",
-  "command": "/usr/bin/g++   -I/home/alik/Desktop/nn_move_predict/dataset_generation/include  -g   -std=gnu++2a -o CMakeFiles/HapticDatasetGen.dir/MyTest.cpp.o -c /home/alik/Desktop/nn_move_predict/dataset_generation/MyTest.cpp",
-  "file": "/home/alik/Desktop/nn_move_predict/dataset_generation/MyTest.cpp"
-}
-]
