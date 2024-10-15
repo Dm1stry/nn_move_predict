@@ -1,0 +1,3 @@
+/home/alik/Desktop/dataset_generation/build/CMakeFiles/rebuild_cache.dir
+/home/alik/Desktop/dataset_generation/build/CMakeFiles/edit_cache.dir
+/home/alik/Desktop/dataset_generation/build/CMakeFiles/HapticDatasetGen.dir
