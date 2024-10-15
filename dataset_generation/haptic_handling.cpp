@@ -71,6 +71,9 @@ HDCallbackCode HDCALLBACK TestCallback(void *data)
 int main(int argc, char* argv[])
 {
     ofs.open("data.csv", std::ofstream::out | std::ios_base::app);
+    ofs << "X" << "," << "Y" << "," << "Z" << "," 
+            << "Q1" << "," << "Q2" << "," << "Q3" << ","
+            << "Q4" << "," << "Q5" << "," << "Q6" << "\n";
     last_time = clock();
 
     char temp;

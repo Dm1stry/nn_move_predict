@@ -15,9 +15,7 @@ find_library(HD_LIB HD NAMES libHD.so.3.4.0 -libHD HINTS ${CMAKE_CURRENT_SOURCE_
 # set(USABLE_FUNCTIONS ${CMAKE_CURRENT_SOURCE_DIR}/usable_functions)
 
 add_executable(${PROJECT}
-    MyTest.cpp
-    # conio.c     conio.h
-    # main.cpp
+    haptic_handling.cpp
 )
 
 target_link_libraries(${PROJECT}
