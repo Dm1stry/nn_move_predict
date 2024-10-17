@@ -9,6 +9,7 @@
 #include <HDU/hduError.h>
 
 clock_t last_time;
+clock_t init_time;
 std::ofstream ofs;
 
 
@@ -40,7 +41,7 @@ HDCallbackCode HDCALLBACK TestCallback(void *data)
         printf("a_j) %f,\nb_j) %f,\nc_j) %f\n",joint_angles[0]*180/M_PI, joint_angles[1]*180/M_PI, joint_angles[2]*180/M_PI);
         printf("a_w) %f,\nb_w) %f,\nc_w) %f\n\n",wrist_angles[0]*180/M_PI, wrist_angles[1]*180/M_PI, wrist_angles[2]*180/M_PI);
 
-        ofs << position[0] << "," << position[1] << "," << position[2] << "," 
+        ofs << (double)(clock())/CLOCKS_PER_SEC*1000 << "," << position[0] << "," << position[1] << "," << position[2] << "," 
             << joint_angles[0]*180/M_PI << "," << joint_angles[1]*180/M_PI << "," << joint_angles[2]*180/M_PI << ","
             << wrist_angles[0]*180/M_PI << "," << wrist_angles[1]*180/M_PI << "," << wrist_angles[2]*180/M_PI << "\n";
 
@@ -70,11 +71,13 @@ HDCallbackCode HDCALLBACK TestCallback(void *data)
 
 int main(int argc, char* argv[])
 {
-    ofs.open("data.csv", std::ofstream::out | std::ios_base::app);
-    ofs << "X" << "," << "Y" << "," << "Z" << "," 
+    ofs.open("data.csv", std::ofstream::out);
+    ofs << "t" << "," << "X" << "," << "Y" << "," << "Z" << "," 
             << "Q1" << "," << "Q2" << "," << "Q3" << ","
             << "Q4" << "," << "Q5" << "," << "Q6" << "\n";
     last_time = clock();
+    init_time = clock();
+
 
     char temp;
     HDErrorInfo error;
