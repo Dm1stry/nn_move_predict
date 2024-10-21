@@ -2,3 +2,4 @@
 
 ## Папки
 - **signal approximation** - ipynb Python notebooks folder for simple model testing
+- **
